@@ -3,35 +3,35 @@
    ============================================ */
 @font-face {
     font-family: 'Incognito';
-    src: url('/fonts/incognito_regular.woff2') format('woff2');
+    src: url('./fonts/incognito_regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Incognito';
-    src: url('/fonts/incognito_medium.woff2') format('woff2');
+    src: url('./fonts/incognito_medium.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Incognito';
-    src: url('/fonts/incognito_condensed.woff2') format('woff2');
+    src: url('./fonts/incognito_condensed.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'Incognito';
-    src: url('/fonts/incognito_bold.woff2') format('woff2');
+    src: url('./fonts/incognito_bold.woff2') format('woff2');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: 'GitLab Mono';
-    src: url('/fonts/gitlab-mono.woff2') format('woff2');
+    src: url('./fonts/gitlab-mono.woff2') format('woff2');
     font-weight: 300 600;
     font-style: normal;
     font-display: swap;
