@@ -1,4 +1,5 @@
 import { skills } from '../data.js';
+import aboutImage from '../assets/about-me.jpg';
 
 export default function About() {
   return (
@@ -7,30 +8,39 @@ export default function About() {
       <div className="about-inner">
         <div className="about-text reveal">
           <p>
-            Hello! My name is Manas and I enjoy creating things that live on the
-            internet. My interest in web development started back in 2012 when I decided
-            to try editing custom themes — turns out hacking together a custom reblog
-            button taught me a lot about HTML &amp; CSS!
+            I'm a Software Developer with experience building scalable web applications,
+            APIs, and backend systems. My primary focus is on designing reliable,
+            high-performance solutions using Node.js, Express.js, TypeScript, PostgreSQL,
+            and modern JavaScript technologies.
           </p>
           <p>
-            Fast-forward to today, and I've had the privilege of working at
-            <a href="#" className="inline-link"> an advertising agency</a>,
-            <a href="#" className="inline-link"> a start-up</a>, and
-            <a href="#" className="inline-link"> a huge corporation</a>. My main focus these
-            days is building accessible, inclusive products and digital experiences for a
-            variety of clients.
+            Over the past few years, I've worked on developing REST APIs, optimizing
+            database operations, integrating third-party services, and building systems
+            that support data-driven business workflows. I enjoy solving complex technical
+            challenges and creating software that is both maintainable and scalable.
           </p>
-          <p>Here are a few technologies I've been working with recently:</p>
+          <p>
+            Currently, I'm building scalable applications at{' '}
+            <a href="https://datacaffe.ai" target="_blank" rel="noopener noreferrer" className="inline-link">DataCaffe.ai</a>,
+            where I contribute to backend architecture, system integrations, and
+            performance-focused development. I'm passionate about clean code, system design,
+            and continuously improving my engineering skills to build products that deliver
+            real business value.
+          </p>
+        </div>
+        <div className="about-image reveal">
+          <div className="image-wrapper">
+            <div
+              className="image-inner"
+              style={{ backgroundImage: `url(${aboutImage})` }}
+            ></div>
+          </div>
+          <p className="skills-intro">Here are a few technologies I've been working with recently:</p>
           <ul className="skills-list">
             {skills.map((skill) => (
               <li key={skill}>{skill}</li>
             ))}
           </ul>
-        </div>
-        <div className="about-image reveal">
-          <div className="image-wrapper">
-            <div className="image-inner"></div>
-          </div>
         </div>
       </div>
     </section>

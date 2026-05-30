@@ -6,11 +6,10 @@ export default function Hero() {
       <IsoGraphic />
       <h1 className="hero-overline reveal">Hi, my name is</h1>
       <h2 className="hero-title big-heading reveal">Manas Ranjan Barik.</h2>
-      <h3 className="hero-subtitle big-heading reveal">I build things for the web.</h3>
+      <h4 className="hero-subtitle big-heading reveal">Building reliable systems behind great products.</h4>
       <p className="hero-text reveal">
-        I'm a software engineer specializing in building (and occasionally designing)
-        exceptional digital experiences. Currently, I'm focused on building accessible,
-        human-centered products at <a href="#" className="inline-link">Your Company</a>.
+        Software developer with experience designing APIs, optimizing databases, and developing reliable backend services. I enjoy solving complex problems, improving system performance, and building products that can scale from thousands to millions of requests. Currently building scalable applications at{' '}
+        <span style={{ whiteSpace: 'nowrap' }}><a href="https://datacaffe.ai" target="_blank" rel="noopener noreferrer" className="inline-link">DataCaffe.ai</a>.</span>
       </p>
       <div className="reveal">
         <a href="#contact" className="button hero-button">Get In Touch</a>

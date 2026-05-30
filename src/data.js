@@ -15,59 +15,61 @@ export const navLinks = [
 ];
 
 export const skills = [
-  'JavaScript (ES6+)',
-  'TypeScript',
-  'React',
   'Node.js',
-  'Next.js',
-  'Tailwind CSS',
+  'Express.js',
+  'TypeScript',
+  'PostgreSQL',
+  'JavaScript',
 ];
 
 export const jobs = [
   {
-    company: 'Company One',
-    title: 'Senior Engineer',
-    url: '#',
-    range: 'January 2023 - Present',
+    company: 'DataCaffe.ai',
+    title: 'Software Developer',
+    url: 'https://datacaffe.ai',
+    range: 'December 2024 - Present',
     points: [
-      'Write modern, performant, maintainable code for a diverse array of client and internal projects.',
-      'Work with a variety of different languages, platforms, frameworks, and content management systems.',
-      'Communicate with multi-disciplinary teams of engineers, designers, and clients on a daily basis.',
+      'Developed and maintained scalable backend applications and REST APIs using Node.js, Express.js, TypeScript, and PostgreSQL, delivering reliable solutions for production environments.',
+      'Designed and implemented APIs to integrate multiple data sources, including Snowflake, PostgreSQL, and Excel, enabling seamless data flow and reporting across business systems.',
+      'Implemented PostgreSQL Row-Level Security (RLS) policies to enforce tenant-level data isolation and strengthen security within multi-tenant applications.',
+      'Collaborated with product teams, analysts, and stakeholders to translate business requirements into scalable technical solutions and system architectures.',
+      'Optimized backend services, database queries, and application performance while contributing to code reviews, architecture discussions, and knowledge-sharing initiatives across the engineering team.',
     ],
   },
-  {
-    company: 'Company Two',
-    title: 'Frontend Engineer',
-    url: '#',
-    range: 'June 2021 - December 2022',
-    points: [
-      'Developed and shipped highly interactive web applications using React and Redux.',
-      'Built and maintained a component library used across multiple product teams.',
-      'Proposed and implemented scalable solutions to issues identified in the codebase.',
-    ],
-  },
-  {
-    company: 'Company Three',
-    title: 'Software Engineer',
-    url: '#',
-    range: 'May 2019 - May 2021',
-    points: [
-      "Engineered and improved major features of the company's flagship product.",
-      'Collaborated with designers to translate Figma mockups into pixel-perfect interfaces.',
-      'Mentored junior developers and led code reviews to ensure code quality.',
-    ],
-  },
-  {
-    company: 'Startup',
-    title: 'Developer Intern',
-    url: '#',
-    range: 'Summer 2018',
-    points: [
-      'Worked alongside the founding team to build the MVP of a consumer-facing mobile app.',
-      'Wrote automated tests to improve confidence and reduce regressions.',
-      'Shipped features end-to-end, from concept to production.',
-    ],
-  },
+  // Additional roles — uncomment and fill in when needed.
+  // {
+  //   company: 'Company Two',
+  //   title: 'Frontend Engineer',
+  //   url: '#',
+  //   range: 'June 2021 - December 2022',
+  //   points: [
+  //     'Developed and shipped highly interactive web applications using React and Redux.',
+  //     'Built and maintained a component library used across multiple product teams.',
+  //     'Proposed and implemented scalable solutions to issues identified in the codebase.',
+  //   ],
+  // },
+  // {
+  //   company: 'Company Three',
+  //   title: 'Software Engineer',
+  //   url: '#',
+  //   range: 'May 2019 - May 2021',
+  //   points: [
+  //     "Engineered and improved major features of the company's flagship product.",
+  //     'Collaborated with designers to translate Figma mockups into pixel-perfect interfaces.',
+  //     'Mentored junior developers and led code reviews to ensure code quality.',
+  //   ],
+  // },
+  // {
+  //   company: 'Startup',
+  //   title: 'Developer Intern',
+  //   url: '#',
+  //   range: 'Summer 2018',
+  //   points: [
+  //     'Worked alongside the founding team to build the MVP of a consumer-facing mobile app.',
+  //     'Wrote automated tests to improve confidence and reduce regressions.',
+  //     'Shipped features end-to-end, from concept to production.',
+  //   ],
+  // },
 ];
 
 export const featuredProjects = [
