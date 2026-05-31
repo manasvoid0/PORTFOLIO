@@ -5,7 +5,7 @@ export const socials = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/manas-ranjan-barik-a2917927a/', icon: 'LinkedIn' },
 ];
 
-export const email = 'you@example.com';
+export const email = 'mrbarik2002@gmail.com';
 
 export const navLinks = [
   { num: '01.', text: 'About', href: '#about' },
