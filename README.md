@@ -45,7 +45,3 @@ portfolio/
 - **Content**: edit `src/data.js` (jobs, projects, socials, skills) and the copy in the section components.
 - **Theme / fonts**: CSS variables at the top of `src/index.css` (`--navy`, `--green`, font stacks).
 - **Hero graphic**: `src/components/IsoGraphic.jsx`.
-
-## Credit
-
-Design credit to Brittany Chiang's v4 and Victor Eke's portfolio. Independent re-implementation with original code and placeholder content.
