@@ -156,6 +156,68 @@ button {
     width: 100%;
 }
 
+/* ============================================
+   Initial page loader (favicon "M" mark)
+   ============================================ */
+.loader {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navy);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0s linear 0s;
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s;
+    pointer-events: none;
+}
+
+.loader__logo {
+    width: 90px;
+    height: 90px;
+    animation: loader-pop 0.6s ease forwards;
+}
+
+.loader__border {
+    stroke-dasharray: 384;
+    stroke-dashoffset: 384;
+    animation: loader-draw 1.2s ease forwards;
+}
+
+@keyframes loader-draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes loader-pop {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .loader__logo,
+    .loader__border {
+        animation: none;
+    }
+    .loader__border {
+        stroke-dashoffset: 0;
+    }
+}
+
 /* Skip link */
 .skip-link {
     position: absolute;
