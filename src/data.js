@@ -77,7 +77,7 @@ export const featuredProjects = [
     title: 'Project One',
     description:
       'A web app for visualizing personalized data. Users can explore curated dashboards, build their own views, and export reports — all with a clean, responsive interface that works across devices.',
-    tech: ['React', 'Next.js', 'TypeScript', 'Node.js'],
+    tech: ['React', 'TypeScript', 'Node.js'],
     github: '#',
     external: '#',
   },
