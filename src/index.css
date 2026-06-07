@@ -218,6 +218,111 @@ button {
     }
 }
 
+/* ============================================
+   Project detail modal
+   ============================================ */
+.project-modal-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.6);
+    animation: modal-fade 0.25s ease;
+}
+
+.project-modal {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: var(--light-navy);
+    border: 1px solid var(--lightest-navy);
+    border-radius: 8px;
+    padding: 48px 56px;
+    box-shadow: 0 20px 50px var(--navy-shadow);
+    animation: modal-pop 0.25s ease;
+}
+
+.project-modal__body {
+    columns: 2;
+    column-gap: 40px;
+}
+
+.project-modal__close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--slate);
+    font-size: 32px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: var(--transition);
+}
+.project-modal__close:hover {
+    color: var(--green);
+}
+
+.project-modal__title {
+    color: var(--lightest-slate);
+    font-size: clamp(24px, 5vw, 32px);
+    margin: 4px 0 20px;
+}
+
+.project-modal__body p {
+    color: var(--light-slate);
+    font-size: var(--fz-md);
+    line-height: 1.5;
+    margin-bottom: 16px;
+    break-inside: avoid;
+}
+
+.project-modal__tech {
+    gap: 10px;
+    margin: 24px 0 28px;
+}
+.project-modal__tech li {
+    margin: 0;
+    padding: 6px 12px;
+    color: var(--green);
+    background: var(--green-tint);
+    border: 1px solid rgba(100, 255, 218, 0.3);
+    border-radius: 4px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-sm);
+    line-height: 1;
+}
+
+.project-modal__link {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .project-modal {
+        padding: 36px 24px;
+        max-height: 85vh;
+    }
+    .project-modal__body {
+        columns: 1;
+    }
+}
+
+@keyframes modal-fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes modal-pop {
+    from { opacity: 0; transform: translateY(12px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 /* Skip link */
 .skip-link {
     position: absolute;
