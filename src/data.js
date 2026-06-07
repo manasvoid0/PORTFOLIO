@@ -20,6 +20,8 @@ export const skills = [
   'TypeScript',
   'PostgreSQL',
   'JavaScript',
+  'Python',
+  'FastAPI',
 ];
 
 export const jobs = [
@@ -81,7 +83,7 @@ export const featuredProjects = [
       "This project is a fully local AI suite that runs entirely on Ollama (using the qwen2.5:7b language model and nomic-embed-text embeddings) with no paid APIs, cloud calls, or external downloads — making it private, free, and offline-capable. It bundles two tools under a single dashboard.",
       'The first is a RAG-based science tutor. It builds a FAISS vector index from a textbook PDF, then answers student questions by retrieving the most relevant passages and feeding them to the LLM, grounding every response in the source material rather than relying on the model\'s memory.',
       'The second is a plagiarism and academic-integrity checker for teachers. Students upload assignments (PDF, DOCX, or PPTX), and for each submission the system runs four checks: an AI-detection pass where Qwen judges whether the text was machine-written, a TF-IDF copy check comparing students against each other, an embedding-based paraphrase check that catches reworded copying, and an originality score rewarding genuine work. Each student receives an integrity score from 0–100 plus a saved JSON report, and the teacher views results in a color-coded dashboard with drill-down per student.',
-      ,
+      'Built with Python, Streamlit, FastAPI, and FAISS.',
     ],
     tech: ['Python', 'Ollama', 'FAISS', 'Streamlit'],
     github: 'https://github.com/manasvoid0/SCIENCE_RAG_PROJECT',
