@@ -64,7 +64,7 @@ export default function Header() {
       <nav className="nav">
         <a href="#" className="logo" aria-label="home">
           <div className="logo-hex">
-            <span>M</span>
+            <img src={`${import.meta.env.BASE_URL}logo_m_s.png`} alt="Manas Ranjan Barik" />
           </div>
         </a>
 
