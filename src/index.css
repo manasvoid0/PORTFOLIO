@@ -1,5 +1,5 @@
 /* ============================================
-   Fonts (matched to victoreke.com)
+   Fonts
    ============================================ */
 @font-face {
     font-family: 'Incognito';
@@ -41,7 +41,7 @@
    Variables & Reset
    ============================================ */
 :root {
-    /* Background & surfaces matched to victoreke.com (zinc-900 dark theme) */
+    /* Background & surfaces (zinc-900 dark theme) */
     --navy: #18181b;          /* page background — zinc-900 */
     --light-navy: #27272a;    /* card / panel — zinc-800 */
     --lightest-navy: #3f3f46; /* borders / highlights — zinc-700 */
@@ -566,7 +566,7 @@ button {
     margin: 0;
     font-family: var(--font-display);
     font-size: clamp(34px, 6vw, 62px);
-    font-weight: 700; /* Incognito condensed — matches victoreke hero */
+    font-weight: 700; /* Incognito condensed */
     letter-spacing: 0;
     color: var(--lightest-slate);
     line-height: 1.08;
