@@ -79,8 +79,9 @@ export default function Header() {
             ))}
           </ol>
           <a
-            href="#"
+            href={`${import.meta.env.BASE_URL}Manas_Ranjan_Barik_Resume.pdf`}
             className="button resume-button"
+            download="Manas_Ranjan_Barik_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
