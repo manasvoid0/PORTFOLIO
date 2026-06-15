@@ -20,6 +20,7 @@
 - 🔭 I'm currently working on **AI / RAG-powered applications**
 - 🌱 I'm learning **DSA (NeetCode roadmap)** & advanced **LLM tooling**
 - 💻 I love building **local-first, no-API AI tools** that run on Ollama
+- 🌐 Check out my portfolio at **[manasvoid0.github.io/PORTFOLIO](https://manasvoid0.github.io/PORTFOLIO/)**
 - 📫 Reach me at **mrbarik2002@gmail.com**
 
 <!-- ───────────────────────────  CONNECT  ────────────────────────── -->
@@ -44,12 +45,21 @@
 <h3 align="center">📊 GitHub Stats</h3>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=manasvoid0&show_icons=true&theme=radical&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manasvoid0&layout=compact&theme=radical&hide_border=true&bg_color=00000000" alt="top langs" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=manasvoid0&show_icons=true&theme=radical&hide_border=true&bg_color=00000000&text_color=0ea5e9&count_private=true" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=manasvoid0&show_icons=true&theme=default&hide_border=true&bg_color=00000000&text_color=0ea5e9&count_private=true" alt="stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=manasvoid0&layout=compact&theme=radical&hide_border=true&bg_color=00000000&text_color=0ea5e9" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manasvoid0&layout=compact&theme=default&hide_border=true&bg_color=00000000&text_color=0ea5e9" alt="top langs" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=manasvoid0&theme=radical&hide_border=true&background=00000000" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=manasvoid0&theme=radical&hide_border=true&background=00000000&dates=0ea5e9&sideLabels=0ea5e9" />
+    <img src="https://streak-stats.demolab.com?user=manasvoid0&theme=default&hide_border=true&background=00000000&dates=0ea5e9&sideLabels=0ea5e9" alt="streak" />
+  </picture>
 </p>
 
 <!-- ─────────────────────  SNAKE CONTRIBUTION GRAPH  ───────────────── -->
@@ -57,7 +67,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manasvoid0/manasvoid0/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manasvoid0/manasvoid0/output/snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/manasvoid0/manasvoid0/output/snake-dark.svg" width="100%" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/manasvoid0/manasvoid0/output/snake.svg" width="100%" />
   </picture>
 </p>
 
